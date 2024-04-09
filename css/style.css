@@ -1,0 +1,669 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Burned&family=Teko:wght@300..700&display=swap');
+
+/*----------------reset------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+    text-decoration: none;
+}
+
+
+/*---------------------------------*/
+
+/*---------------HEADER----------*/
+nav img {
+    width: 100px;
+    height: 100px;
+}
+
+.menu-color {
+    background-color: #000000;
+}
+
+.navbar-toggler {
+    background-color: #ffffff;
+}
+
+/*----------------------------------*/
+
+/*-------------main page index-------------------*/
+
+.hero {
+    width: 100%;
+    height: calc(100vh - 110px);
+    /* height 500px*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/pizza-horno.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+.hero h2 {
+    color: #ffffff;
+    font-size: 70px;
+    border: 4px solid #ffffff;
+    padding: 20px;
+}
+
+.hero p {
+    color: #ffffff;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.hero img {
+    width: 200px;
+    height: 200px;
+}
+
+.hero a {
+    background-color: #000000;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 20px;
+}
+
+
+.bienvenidos img {
+    width: 400px;
+    height: 500px;
+    margin-left: 10px;
+
+}
+
+.bienvenidos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.bienvenidos div h2 {
+    font-size: 50px;
+    color: #000000;
+
+}
+
+.bienvenidos div p {
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.productos div img {
+    width: 300px;
+    height: 250px;
+}
+
+.productos .productos-contenedor div {
+    border: 2px gray solid;
+    width: 304px;
+    height: 350px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: -1px 10px 43px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 10px 43px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 10px 43px -7px rgba(0, 0, 0, 0.75);
+
+}
+
+.productos div a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.productos div h3 {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.productos h2 {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 18px;
+    text-transform: uppercase;
+}
+
+.productos .productos-contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+/*logito de wsp que te sigue a todos lados*/
+.fixed img {
+    width: 80px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+/*---------main page nosotros--------------*/
+.nosotros {
+    text-align: center;
+}
+
+.nosotros img {
+    width: 500px;
+
+
+}
+
+.nosotros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nosotros h2 {
+    color: #000000;
+    font-size: 50px;
+
+}
+
+.titulo-galeria {
+    color: #ffffff;
+    font-size: 50px;
+    background-color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+.nosotros p {
+    font-size: 30px;
+}
+
+.grid-galeria {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    gap: 20px;
+}
+
+.grid-galeria div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+}
+
+.grid-item {
+    position: relative;
+
+
+}
+
+.grid-item h3 {
+    position: absolute;
+    bottom: 0;
+    color: #ffffff;
+    width: 100%;
+    background-color: #0000008a;
+
+
+}
+
+.img-4 {
+    grid-column: span 2;
+
+}
+
+.img-6 {
+    grid-row: span 2;
+
+}
+
+.img-8 {
+    grid-row: span 2;
+
+}
+
+.video .video-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.video h2 {
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+
+}
+
+/*-----------------------------------*/
+
+/*---------main page productos--------------*/
+
+.tipos-pizza h2 {
+    color: #ffffff;
+    background-color: #000000;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.tipos-pizza div img {
+    width: 300px;
+    height: 200px;
+}
+
+.tipos-pizza div a {
+    padding: 10px;
+    text-align: center;
+
+
+
+}
+
+.tipos-pizza div h3 {
+    margin-bottom: 10px;
+
+
+}
+
+.tipos-pizza .productos-container div {
+    border: 2px #808080 solid;
+    width: 304px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+}
+
+.tipos-pizza .productos-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+/*-----------------------------------*/
+
+/*---------main page servicios--------------*/
+
+
+.servicios div img {
+    width: 350px;
+    margin: 10px;
+
+}
+
+.servicios-contenedor {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+}
+
+.servicios .servicios-contenedor div h3 {
+    font-size: 50px;
+}
+
+.servicios .servicios-contenedor div p {
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.sucursal .sucursal-contenedor {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-direction: row-reverse;
+
+}
+
+.sucursal .sucursal-contenedor div h3 {
+    font-size: 50px;
+
+}
+
+.sucursal .sucursal-contenedor div p {
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+.sucursal div img{
+    width: 100%;
+    height: auto;
+
+
+}
+.sucursal div{
+    width: 100%;
+    height: auto;
+
+
+}
+
+.acordeon h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*-----------------------------------*/
+.boton {
+    background-color: black;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+
+/*main page contacto*/
+.formulario-contacto {
+    background-color: #000000;
+    color: white;
+    width: 400px;
+    margin: 0px auto;
+    padding: 30px;
+    border: 4px solid #ff0000;
+
+
+}
+
+.formulario-container h3 {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding: 18px;
+    text-transform: uppercase;
+    margin-top: 15px;
+
+}
+
+
+/*----------------foooter-------------*/
+footer img {
+    width: 50px;
+    height: 50px;
+
+}
+
+footer .footer-logo {
+    width: 100px;
+    height: 100px;
+
+}
+
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+
+}
+
+footer ul {
+    list-style: none;
+
+
+}
+
+footer ul li a {
+    color: #ffffff !important;
+    text-decoration: none !important;
+
+
+}
+
+footer div {
+    padding: 20px;
+
+}
+
+footer a i {
+    color: #ffffff;
+    font-size: 50px;
+}
+
+/*-------------------------------------*/
+
+/*media queries pagina index*/
+@media screen and (max-width:962px) {
+    .bienvenidos {
+        flex-direction: column;
+    }
+
+    .bienvenidos div {
+        width: 80%;
+        text-align: center;
+        margin: 50px;
+
+    }
+
+    .bienvenidos img {
+        display: none;
+    }
+
+    .bienvenidos div h2 {
+        font-size: 35px;
+    }
+
+    .bienvenidos div p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .grid-galeria {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 220px;
+    }
+
+    .grid-item {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .img-9 {
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 768px) {}
+
+
+@media screen and (max-width:800px) {
+
+    .sticky-top {
+        position: static !important;
+        /* Anula la posición fija */
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .fixed {
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width:714px) {
+    .hero h2 {
+        font-size: 50px;
+        padding: 5px;
+    }
+
+    .hero p {
+        font-size: 20px;
+
+    }
+
+    .hero a {
+        font-size: 16px;
+
+    }
+
+}
+
+@media screen and (max-width:453px) {
+    .hero h2 {
+        font-size: 35px;
+        padding: 5px;
+    }
+
+    .hero p {
+        font-size: 20px;
+
+    }
+
+    .hero a {
+        font-size: 16px;
+
+    }
+
+}
+
+@media screen and (max-width:444px) {
+    .grid-galeria {
+        grid-template-columns: 1fr;
+
+    }
+
+    .grid-item {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+
+}
+
+/*media querie pagina sobre nosotros*/
+@media screen and (max-width:800px) {
+    .nosotros {
+        flex-direction: column;
+
+
+    }
+
+    .nosotros h2 {
+        font-size: 30px;
+
+
+    }
+
+    .nosotros p {
+        font-size: 15px;
+    }
+
+    .video h2 {
+        font-size: 40px;
+        padding: 15px;
+    }
+
+    .titulo-galeria {
+
+
+        font-size: 40px;
+        margin-top: 10px;
+        padding: 15px;
+
+    }
+
+    .video-responsive {
+        padding-bottom: 75%;
+        /* Proporción 4:3 (dividir 3 por 4 y multiplicar por 100) */
+    }
+
+    .tipos-pizza h2{
+        font-size: 40px;
+        padding: 15px;/
+    }
+    .servicios-contenedor{
+        display: flex;
+        flex-direction:column;
+    }
+    .sucursal .sucursal-contenedor{
+        display: flex;
+        flex-direction:column;
+    }
+    .sucursal .sucursal-contenedor div p {
+        font-size: 20px;
+        
+    
+    }
+    .servicios .servicios-contenedor div p {
+        font-size: 20px;
+        
+    }
+    .sucursal .sucursal-contenedor div h3 {
+        font-size: 40px;
+    
+    }
+    .servicios .servicios-contenedor div h3 {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .imagen-responsiva {
+      width: 80%; /* Reducir el ancho de la imagen para pantallas más pequeñas */
+    }
+}
+
+
+
+
+/*no podemos aplica media queries sino tenemos distribuidos los elementos*/
+
+.video-responsive {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* Proporción 16:9 (dividir 9 por 16 y multiplicar por 100) */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
