@@ -45,29 +45,42 @@
     
     
     <main>
-
-        <section class="formulario-container">
+        <section class="iconos-contacto">
             <h3>Contactanos</h3>
-            <form class="formulario-contacto">
-                <div>
+            <div>
+            <div>
+            <a href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp"></i></a>
+            <p>1158452348</p>
+            </div>
+            <div>
+            <a href="https://mail.google.com/" target="_blank"><i class="bi bi-envelope"></i></a>
+            <p>pizzaboy@gmail.com</p>
+            </div>
+            <div>
+            <a href="#local"><i class="bi bi-house"></i></a>
+            <p>Visítanos en el local</p>
+            </div>
+        </div>
+        </section>
+
+        <section class="formulario-contacto">
+            <h3>Dejanos tu comentario</h3>
+            <form>
+                <div class="controls">
                     <label for="nombre">Nombre:</label>
                     <input type="text" name="nombre" id="nombre" placeholder="Escribi tu nombre">
                 </div>
-                <div>
+                <div class="controls">
                     <label for="apellido">Apellido:</label>
                     <input type="text" name="apellido" id="apellido" placeholder="Escribi tu apellido">
                 </div>
-                <div>
+                <div class="controls">
                     <label for="email">Email:</label>
                     <input type="email" name="email" id="email" placeholder="Escribi tu email">
                 </div>
-                <div>
-                    <label for="contrasenia">Contraseña:</label>
-                    <input type="password" name="contrasenia" id="contrasenia" placeholder="Escribi tu contraseña">
-                </div>
-                <div>
+                <div class="controls">
                     <label for="genero"></label>
-                    <div>
+                    <div class="controls">
                         <label for="masculino">Masculino</label>
                         <input type="radio" name="genero" id="">
                         <label for="femenino">Femenino</label>
@@ -77,7 +90,7 @@
                     </div>
                 </div>
 
-                <div>
+                <div class="controls">
                     <label for="">Pais</label>
                     <select name="" id="">
                         <option value="">Argentina</option>
@@ -88,16 +101,23 @@
                     </select>
                 </div>
 
-                <div>
-                    <label for="">Escribi tu comentario</label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                <div class="controls">
+                    <label for="">Escribi tu comentario:</label>
+                    <textarea name="" id="" cols="120" rows="10"></textarea>
                 </div>
-                <div>
+                <div class="botones-contacto">
                     <input type="submit" name="" id="">
                     <input type="reset" name="" id="">
                 </div>
             </form>
 
+        </section>
+        <section class="mapa-contacto" id="local">
+            <div>
+            <h2>Encontranos en CABA Saavedra 363</h2>
+            <p>Nuestro horario de atención es de Lunes a sábado de 8 a 14 hs</p>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.609157358958!2d-58.405731824770896!3d-34.614043458042815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccae578934e3d%3A0x32a5e31a5f1e9476!2sSaavedra%20363%2C%20C1083ACG%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1712783093387!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
 
         

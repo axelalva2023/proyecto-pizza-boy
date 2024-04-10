@@ -258,6 +258,22 @@ nav img {
 
 }
 
+.video-responsive {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* Proporción 16:9 (dividir 9 por 16 y multiplicar por 100) */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 /*-----------------------------------*/
 
 /*---------main page productos--------------*/
@@ -359,13 +375,14 @@ nav img {
 
 }
 
-.sucursal div img{
+.sucursal div img {
     width: 100%;
     height: auto;
 
 
 }
-.sucursal div{
+
+.sucursal div {
     width: 100%;
     height: auto;
 
@@ -386,18 +403,34 @@ nav img {
 
 
 /*main page contacto*/
-.formulario-contacto {
-    background-color: #000000;
-    color: white;
-    width: 400px;
-    margin: 0px auto;
-    padding: 30px;
-    border: 4px solid #ff0000;
-
-
+.formulario-contacto h3{
+    text-align: center;
+    color: #000000 !important;
 }
 
-.formulario-container h3 {
+form .controls, .botones-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+form .controls input{
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    
+}
+form .controls label{
+    font-size: 17px;
+    
+}
+form .botones-contacto{
+    margin: 10px;
+    padding: 20px;
+}
+
+
+.iconos-contacto h3 {
     background-color: #000000;
     color: #ffffff;
     text-align: center;
@@ -409,7 +442,35 @@ nav img {
 
 }
 
+.iconos-contacto div i {
+    font-size: 50px;
+    margin: 10px;
+    color: #000000 !important;
+}
 
+.iconos-contacto div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.mapa-contacto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #000000;
+}
+.mapa-contacto div h2{
+    color: #ffffff;
+    text-align: center;
+    
+}
+.mapa-contacto div p{
+    color: #ffffff;
+    text-align: center;
+    
+}
 /*----------------foooter-------------*/
 footer img {
     width: 50px;
@@ -612,58 +673,54 @@ footer a i {
         /* Proporción 4:3 (dividir 3 por 4 y multiplicar por 100) */
     }
 
-    .tipos-pizza h2{
+    .tipos-pizza h2 {
         font-size: 40px;
         padding: 15px;/
     }
-    .servicios-contenedor{
+
+    .servicios-contenedor {
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
     }
-    .sucursal .sucursal-contenedor{
+
+    .sucursal .sucursal-contenedor {
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
     }
+
     .sucursal .sucursal-contenedor div p {
         font-size: 20px;
-        
-    
+
+
     }
+
     .servicios .servicios-contenedor div p {
         font-size: 20px;
-        
+
     }
+
     .sucursal .sucursal-contenedor div h3 {
         font-size: 40px;
-    
+
     }
+
     .servicios .servicios-contenedor div h3 {
         font-size: 40px;
     }
 }
+
 @media screen and (max-width: 768px) {
     .imagen-responsiva {
-      width: 80%; /* Reducir el ancho de la imagen para pantallas más pequeñas */
+        width: 80%;
+        /* Reducir el ancho de la imagen para pantallas más pequeñas */
     }
+
+    
 }
+
 
 
 
 
 /*no podemos aplica media queries sino tenemos distribuidos los elementos*/
 
-.video-responsive {
-    position: relative;
-    padding-bottom: 56.25%;
-    /* Proporción 16:9 (dividir 9 por 16 y multiplicar por 100) */
-    height: 0;
-    overflow: hidden;
-}
-
-.video-responsive iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
