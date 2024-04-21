@@ -15,10 +15,11 @@ $modificando-img:(
     align-items: center;
 }
 
-@mixin flex($flex, $justify, $aling, $wrap){
+@mixin flex($flex, $justify, $aling, $wrap, $direction){
     display: $flex;
     justify-content: $justify;
     align-items: $aling;
     flex-wrap: $wrap;
+    flex-direction: $direction;
 
 }

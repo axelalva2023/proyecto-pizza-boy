@@ -86,7 +86,8 @@ main .productos .productos-contenedor {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  flex-direction: 0; }
   main .productos .productos-contenedor div {
     border: 2px gray solid;
     width: 304px;
@@ -150,6 +151,152 @@ main .productos .productos-contenedor {
       background-color: #000000;
       padding: 10px;
       text-decoration: none; }
+
+main .iconos-contacto h3 {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 10px;
+  padding: 18px;
+  text-transform: uppercase;
+  margin-top: 15px; }
+
+main .iconos-contacto div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: 0; }
+  main .iconos-contacto div div a i {
+    font-size: 50px;
+    margin: 10px;
+    color: #000000 !important; }
+  main .iconos-contacto div div a i {
+    font-size: 50px;
+    margin: 10px;
+    color: #000000 !important; }
+  main .iconos-contacto div div a i {
+    font-size: 50px;
+    margin: 10px;
+    color: #000000 !important; }
+
+main .formulario-contacto h3 {
+  text-align: center;
+  color: #000000 !important; }
+
+main .formulario-contacto form .controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: 0;
+  flex-direction: 0; }
+  main .formulario-contacto form .controls label {
+    font-size: 17px; }
+  main .formulario-contacto form .controls input {
+    margin: 10px;
+    padding: 10px;
+    width: 100%; }
+
+main .formulario-contacto form .controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: 0;
+  flex-direction: 0; }
+  main .formulario-contacto form .controls label {
+    font-size: 17px; }
+  main .formulario-contacto form .controls input {
+    margin: 10px;
+    padding: 10px;
+    width: 100%; }
+
+main .formulario-contacto form .controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: 0;
+  flex-direction: 0; }
+  main .formulario-contacto form .controls label {
+    font-size: 17px; }
+  main .formulario-contacto form .controls input {
+    margin: 10px;
+    padding: 10px;
+    width: 100%; }
+
+main .formulario-contacto form .controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: 0;
+  flex-direction: 0; }
+  main .formulario-contacto form .controls label {
+    font-size: 17px; }
+  main .formulario-contacto form .controls .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: 0;
+    flex-direction: 0; }
+    main .formulario-contacto form .controls .controls label {
+      font-size: 17px; }
+    main .formulario-contacto form .controls .controls input {
+      margin: 10px;
+      padding: 10px;
+      width: 100%; }
+    main .formulario-contacto form .controls .controls label {
+      font-size: 17px; }
+    main .formulario-contacto form .controls .controls input {
+      margin: 10px;
+      padding: 10px;
+      width: 100%; }
+    main .formulario-contacto form .controls .controls label {
+      font-size: 17px; }
+    main .formulario-contacto form .controls .controls input {
+      margin: 10px;
+      padding: 10px;
+      width: 100%; }
+
+main .formulario-contacto form .controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: 0;
+  flex-direction: 0; }
+  main .formulario-contacto form .controls label {
+    font-size: 17px; }
+
+main .formulario-contacto form .controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: 0;
+  flex-direction: 0; }
+  main .formulario-contacto form .controls label {
+    font-size: 17px; }
+
+main .formulario-contacto form .botones-contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: 0;
+  flex-direction: 0;
+  margin: 10px;
+  padding: 20px; }
+
+main .mapa-contacto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: 0;
+  background-color: #000000; }
+  main .mapa-contacto div h2 {
+    color: #ffffff;
+    text-align: center; }
+  main .mapa-contacto div p {
+    color: #ffffff;
+    text-align: center; }
 
 footer {
   background-color: #000000;
