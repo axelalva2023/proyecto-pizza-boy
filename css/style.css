@@ -13,7 +13,7 @@
 /*---------------------------------*/
 
 /*---------------HEADER----------*/
-nav img {
+nav a img {
     width: 100px;
     height: 100px;
 }
@@ -58,11 +58,6 @@ nav img {
     color: #ffffff;
     margin-bottom: 50px;
     font-size: 30px;
-}
-
-.hero img {
-    width: 200px;
-    height: 200px;
 }
 
 .hero a {
@@ -472,13 +467,7 @@ form .botones-contacto{
     
 }
 /*----------------foooter-------------*/
-footer img {
-    width: 50px;
-    height: 50px;
-
-}
-
-footer .footer-logo {
+footer a img {
     width: 100px;
     height: 100px;
 
