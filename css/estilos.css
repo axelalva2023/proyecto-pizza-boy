@@ -797,9 +797,9 @@ footer {
 @media screen and (max-width: 800px) {
   main .nosotros {
     flex-direction: column; }
-  main .nosotros h2 {
+  main .nosotros div div h2 {
     font-size: 30px; }
-  main .nosotros p {
+  main .nosotros div div p {
     font-size: 15px; }
   main .video h2 {
     font-size: 40px;
