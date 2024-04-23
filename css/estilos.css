@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Burned&family=Teko:wght@300..700&display=swap");
 main .bienvenidos {
   display: flex;
@@ -38,9 +39,10 @@ main .hero {
   height: calc(100vh - 110px);
   /* height 500px*/
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: 0;
+  flex-direction: column;
   background-image: url(../img/pizza-horno.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -298,6 +300,399 @@ main .mapa-contacto {
     color: #ffffff;
     text-align: center; }
 
+main .nosotros {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: 0;
+  flex-direction: 0; }
+  main .nosotros div div h2 {
+    color: #000000;
+    font-size: 50px; }
+  main .nosotros div div p {
+    font-size: 30px; }
+  main .nosotros div img {
+    width: 500px; }
+
+main .titulo-galeria {
+  color: #ffffff;
+  font-size: 50px;
+  background-color: #000000;
+  text-align: center;
+  padding: 20px; }
+
+main .grid-galeria {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 250px;
+  gap: 20px; }
+  main .grid-galeria .grid-item {
+    position: relative; }
+    main .grid-galeria .grid-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75); }
+    main .grid-galeria .grid-item h3 {
+      position: absolute;
+      bottom: 0;
+      color: #ffffff;
+      width: 100%;
+      background-color: #000000; }
+  main .grid-galeria .grid-item {
+    position: relative; }
+    main .grid-galeria .grid-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75); }
+    main .grid-galeria .grid-item h3 {
+      position: absolute;
+      bottom: 0;
+      color: #ffffff;
+      width: 100%;
+      background-color: #000000; }
+  main .grid-galeria .grid-item {
+    position: relative; }
+    main .grid-galeria .grid-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75); }
+    main .grid-galeria .grid-item h3 {
+      position: absolute;
+      bottom: 0;
+      color: #ffffff;
+      width: 100%;
+      background-color: #000000; }
+  main .grid-galeria .grid-item {
+    position: relative; }
+    main .grid-galeria .grid-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75); }
+    main .grid-galeria .grid-item h3 {
+      position: absolute;
+      bottom: 0;
+      color: #ffffff;
+      width: 100%;
+      background-color: #000000; }
+  main .grid-galeria .img-4 {
+    grid-column: span 2; }
+  main .grid-galeria .grid-item {
+    position: relative; }
+    main .grid-galeria .grid-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75); }
+    main .grid-galeria .grid-item h3 {
+      position: absolute;
+      bottom: 0;
+      color: #ffffff;
+      width: 100%;
+      background-color: #000000; }
+  main .grid-galeria .grid-item {
+    position: relative; }
+    main .grid-galeria .grid-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75); }
+    main .grid-galeria .grid-item h3 {
+      position: absolute;
+      bottom: 0;
+      color: #ffffff;
+      width: 100%;
+      background-color: #000000; }
+  main .grid-galeria .img-6 {
+    grid-row: span 2; }
+  main .grid-galeria .grid-item {
+    position: relative; }
+    main .grid-galeria .grid-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75); }
+    main .grid-galeria .grid-item h3 {
+      position: absolute;
+      bottom: 0;
+      color: #ffffff;
+      width: 100%;
+      background-color: #000000; }
+  main .grid-galeria .grid-item {
+    position: relative; }
+    main .grid-galeria .grid-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75); }
+    main .grid-galeria .grid-item h3 {
+      position: absolute;
+      bottom: 0;
+      color: #ffffff;
+      width: 100%;
+      background-color: #000000; }
+  main .grid-galeria .img-8 {
+    grid-row: span 2; }
+  main .grid-galeria .grid-item {
+    position: relative; }
+    main .grid-galeria .grid-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75); }
+    main .grid-galeria .grid-item h3 {
+      position: absolute;
+      bottom: 0;
+      color: #ffffff;
+      width: 100%;
+      background-color: #000000; }
+
+main .video h2 {
+  color: #ffffff;
+  background-color: #000000 !important;
+  text-align: center;
+  font-size: 50px;
+  padding: 20px; }
+
+main .video .video-responsive {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* Proporción 16:9 (dividir 9 por 16 y multiplicar por 100) */
+  height: 0;
+  overflow: hidden; }
+  main .video .video-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+main .tipos-pizza h2 {
+  color: #ffffff;
+  background-color: #000000;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px; }
+
+main .tipos-pizza .productos-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: 0;
+  text-align: center; }
+  main .tipos-pizza .productos-container div {
+    border: 2px #808080 solid;
+    width: 304px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75); }
+    main .tipos-pizza .productos-container div img {
+      width: 300px;
+      height: 200px; }
+    main .tipos-pizza .productos-container div h3 {
+      margin-bottom: 10px; }
+    main .tipos-pizza .productos-container div a {
+      padding: 10px;
+      text-align: center; }
+  main .tipos-pizza .productos-container div {
+    border: 2px #808080 solid;
+    width: 304px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75); }
+    main .tipos-pizza .productos-container div img {
+      width: 300px;
+      height: 200px; }
+    main .tipos-pizza .productos-container div h3 {
+      margin-bottom: 10px; }
+    main .tipos-pizza .productos-container div a {
+      padding: 10px;
+      text-align: center; }
+  main .tipos-pizza .productos-container div {
+    border: 2px #808080 solid;
+    width: 304px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75); }
+    main .tipos-pizza .productos-container div img {
+      width: 300px;
+      height: 200px; }
+    main .tipos-pizza .productos-container div h3 {
+      margin-bottom: 10px; }
+    main .tipos-pizza .productos-container div a {
+      padding: 10px;
+      text-align: center; }
+  main .tipos-pizza .productos-container div {
+    border: 2px #808080 solid;
+    width: 304px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75); }
+    main .tipos-pizza .productos-container div img {
+      width: 300px;
+      height: 200px; }
+    main .tipos-pizza .productos-container div h3 {
+      margin-bottom: 10px; }
+    main .tipos-pizza .productos-container div a {
+      padding: 10px;
+      text-align: center; }
+  main .tipos-pizza .productos-container div {
+    border: 2px #808080 solid;
+    width: 304px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75); }
+    main .tipos-pizza .productos-container div img {
+      width: 300px;
+      height: 200px; }
+    main .tipos-pizza .productos-container div h3 {
+      margin-bottom: 10px; }
+    main .tipos-pizza .productos-container div a {
+      padding: 10px;
+      text-align: center; }
+  main .tipos-pizza .productos-container div {
+    border: 2px #808080 solid;
+    width: 304px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75); }
+    main .tipos-pizza .productos-container div img {
+      width: 300px;
+      height: 200px; }
+    main .tipos-pizza .productos-container div h3 {
+      margin-bottom: 10px; }
+    main .tipos-pizza .productos-container div a {
+      padding: 10px;
+      text-align: center; }
+  main .tipos-pizza .productos-container div {
+    border: 2px #808080 solid;
+    width: 304px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75); }
+    main .tipos-pizza .productos-container div img {
+      width: 300px;
+      height: 200px; }
+    main .tipos-pizza .productos-container div h3 {
+      margin-bottom: 10px; }
+    main .tipos-pizza .productos-container div a {
+      padding: 10px;
+      text-align: center; }
+  main .tipos-pizza .productos-container div {
+    border: 2px #808080 solid;
+    width: 304px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75); }
+    main .tipos-pizza .productos-container div img {
+      width: 300px;
+      height: 200px; }
+    main .tipos-pizza .productos-container div h3 {
+      margin-bottom: 10px; }
+    main .tipos-pizza .productos-container div a {
+      padding: 10px;
+      text-align: center; }
+  main .tipos-pizza .productos-container div {
+    border: 2px #808080 solid;
+    width: 304px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75); }
+    main .tipos-pizza .productos-container div img {
+      width: 300px;
+      height: 200px; }
+    main .tipos-pizza .productos-container div h3 {
+      margin-bottom: 10px; }
+    main .tipos-pizza .productos-container div a {
+      padding: 10px;
+      text-align: center; }
+
+main .servicios .servicios-contenedor {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: 0;
+  flex-direction: 0;
+  text-align: center; }
+  main .servicios .servicios-contenedor div h3 {
+    font-size: 50px; }
+  main .servicios .servicios-contenedor div p {
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 10px; }
+  main .servicios .servicios-contenedor img {
+    width: 350px;
+    margin: 10px; }
+
+main .sucursal .sucursal-contenedor {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: 0;
+  flex-direction: row-reverse;
+  text-align: center; }
+  main .sucursal .sucursal-contenedor div {
+    width: 100%;
+    height: auto; }
+    main .sucursal .sucursal-contenedor div h3 {
+      font-size: 50px; }
+    main .sucursal .sucursal-contenedor div p {
+      font-size: 30px;
+      margin-right: 10px;
+      margin-left: 10px; }
+  main .sucursal .sucursal-contenedor div img {
+    width: 100%;
+    height: auto; }
+
+main .acordeon h2 {
+  text-align: center;
+  margin-top: 10px; }
+
 footer {
   background-color: #000000;
   color: #ffffff;
@@ -339,3 +734,102 @@ footer {
     footer div a i {
       color: #ffffff;
       font-size: 50px; }
+
+@media screen and (max-width: 962px) {
+  .bienvenidos {
+    flex-direction: column; }
+  .bienvenidos div {
+    width: 80%;
+    text-align: center;
+    margin: 50px; }
+  .bienvenidos img {
+    display: none; }
+  .bienvenidos div h2 {
+    font-size: 35px; }
+  .bienvenidos div p {
+    font-size: 20px; } }
+
+@media screen and (max-width: 950px) {
+  main .grid-galeria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 220px; }
+  main .grid-galeria .grid-item {
+    grid-column: span 1;
+    grid-row: span 1; }
+  main .grid-galeria .img-9 {
+    grid-column: span 2; } }
+
+@media screen and (max-width: 800px) {
+  .sticky-top {
+    position: static !important;
+    /* Anula la posición fija */ }
+  header {
+    flex-direction: column; }
+  .fixed {
+    display: none; } }
+
+@media screen and (max-width: 714px) {
+  main .hero h2 {
+    font-size: 50px;
+    padding: 5px; }
+  main .hero p {
+    font-size: 20px; }
+  main .hero a {
+    font-size: 16px; } }
+
+@media screen and (max-width: 453px) {
+  main .hero h2 {
+    font-size: 35px;
+    padding: 5px; }
+  main .hero p {
+    font-size: 20px; }
+  main .hero a {
+    font-size: 16px; } }
+
+@media screen and (max-width: 444px) {
+  main .grid-galeria {
+    grid-template-columns: 1fr; }
+  main .grid-galeria .grid-item {
+    grid-column: span 1;
+    grid-row: span 1; } }
+
+/*media querie pagina sobre nosotros*/
+@media screen and (max-width: 800px) {
+  main .nosotros {
+    flex-direction: column; }
+  main .nosotros h2 {
+    font-size: 30px; }
+  main .nosotros p {
+    font-size: 15px; }
+  main .video h2 {
+    font-size: 40px;
+    padding: 15px; }
+  main .titulo-galeria {
+    font-size: 40px;
+    margin-top: 10px;
+    padding: 15px; }
+  main .video .video-responsive {
+    padding-bottom: 75%;
+    /* Proporción 4:3 (dividir 3 por 4 y multiplicar por 100) */ }
+  main .tipos-pizza h2 {
+    font-size: 40px;
+    padding: 15px; }
+  main .servicios .servicios-contenedor {
+    display: flex;
+    flex-direction: column; }
+  main .sucursal .sucursal-contenedor {
+    display: flex;
+    flex-direction: column; }
+  main .sucursal .sucursal-contenedor div p {
+    font-size: 20px; }
+  main .servicios .servicios-contenedor div p {
+    font-size: 20px; }
+  main .sucursal .sucursal-contenedor div h3 {
+    font-size: 40px; }
+  main .servicios .servicios-contenedor div h3 {
+    font-size: 40px; } }
+
+@media screen and (max-width: 768px) {
+  .imagen-responsiva {
+    width: 80%;
+    /* Reducir el ancho de la imagen para pantallas más pequeñas */ } }
