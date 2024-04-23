@@ -736,17 +736,17 @@ footer {
       font-size: 50px; }
 
 @media screen and (max-width: 962px) {
-  .bienvenidos {
+  main .bienvenidos {
     flex-direction: column; }
-  .bienvenidos div {
+  main .bienvenidos div {
     width: 80%;
     text-align: center;
     margin: 50px; }
-  .bienvenidos img {
+  main .bienvenidos img {
     display: none; }
-  .bienvenidos div h2 {
+  main .bienvenidos div h2 {
     font-size: 35px; }
-  .bienvenidos div p {
+  main .bienvenidos div p {
     font-size: 20px; } }
 
 @media screen and (max-width: 950px) {
