@@ -707,8 +707,7 @@ footer {
     width: 100px;
     height: 100px; }
   footer ul {
-    list-style: none;
-    font-size: 30px; }
+    list-style: none; }
     footer ul li a {
       color: #ffffff !important;
       text-decoration: none !important; }
