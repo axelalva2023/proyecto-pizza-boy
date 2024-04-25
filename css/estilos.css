@@ -14,13 +14,13 @@ main .bienvenidos {
   text-decoration: none; }
 
 .menu-color {
-  background-color: #000000; }
+  background-color: #c50202; }
 
 .navbar-toggler {
   background-color: #ffffff; }
 
 .boton {
-  background-color: #000000;
+  background-color: #c50202;
   color: #ffffff !important;
   text-decoration: none !important; }
 
@@ -58,7 +58,7 @@ main .hero {
     margin-bottom: 50px;
     font-size: 30px; }
   main .hero a {
-    background-color: #000000;
+    background-color: #c50202;
     text-decoration: none;
     color: #ffffff;
     padding: 15px;
@@ -68,7 +68,7 @@ main .bienvenidos {
   text-align: center; }
   main .bienvenidos div h2 {
     font-size: 50px;
-    color: #000000; }
+    color: #c50202; }
   main .bienvenidos div p {
     margin-left: 10px;
     font-size: 30px; }
@@ -78,7 +78,7 @@ main .bienvenidos {
     margin-left: 10px; }
 
 main .productos h2 {
-  background-color: #000000;
+  background-color: #c50202;
   color: #ffffff;
   text-align: center;
   padding: 18px;
@@ -108,7 +108,7 @@ main .productos .productos-contenedor {
     main .productos .productos-contenedor div a {
       text-decoration: none;
       color: #ffffff;
-      background-color: #000000;
+      background-color: #c50202;
       padding: 10px;
       text-decoration: none; }
   main .productos .productos-contenedor div {
@@ -129,7 +129,7 @@ main .productos .productos-contenedor {
     main .productos .productos-contenedor div a {
       text-decoration: none;
       color: #ffffff;
-      background-color: #000000;
+      background-color: #c50202;
       padding: 10px;
       text-decoration: none; }
   main .productos .productos-contenedor div {
@@ -150,12 +150,12 @@ main .productos .productos-contenedor {
     main .productos .productos-contenedor div a {
       text-decoration: none;
       color: #ffffff;
-      background-color: #000000;
+      background-color: #c50202;
       padding: 10px;
       text-decoration: none; }
 
 main .iconos-contacto h3 {
-  background-color: #000000;
+  background-color: #c50202;
   color: #ffffff;
   text-align: center;
   font-size: 30px;
@@ -173,19 +173,19 @@ main .iconos-contacto div {
   main .iconos-contacto div div a i {
     font-size: 50px;
     margin: 10px;
-    color: #000000 !important; }
+    color: #c50202 !important; }
   main .iconos-contacto div div a i {
     font-size: 50px;
     margin: 10px;
-    color: #000000 !important; }
+    color: #c50202 !important; }
   main .iconos-contacto div div a i {
     font-size: 50px;
     margin: 10px;
-    color: #000000 !important; }
+    color: #c50202 !important; }
 
 main .formulario-contacto h3 {
   text-align: center;
-  color: #000000 !important; }
+  color: #c50202 !important; }
 
 main .formulario-contacto form .controls {
   display: flex;
@@ -292,7 +292,7 @@ main .mapa-contacto {
   align-items: center;
   flex-wrap: wrap;
   flex-direction: 0;
-  background-color: #000000; }
+  background-color: #c50202; }
   main .mapa-contacto div h2 {
     color: #ffffff;
     text-align: center; }
@@ -308,7 +308,7 @@ main .nosotros {
   flex-wrap: 0;
   flex-direction: 0; }
   main .nosotros div div h2 {
-    color: #000000;
+    color: #c50202;
     font-size: 50px; }
   main .nosotros div div p {
     font-size: 30px; }
@@ -318,7 +318,7 @@ main .nosotros {
 main .titulo-galeria {
   color: #ffffff;
   font-size: 50px;
-  background-color: #000000;
+  background-color: #c50202;
   text-align: center;
   padding: 20px; }
 
@@ -344,7 +344,7 @@ main .grid-galeria {
       bottom: 0;
       color: #ffffff;
       width: 100%;
-      background-color: #000000; }
+      background-color: #c50202; }
   main .grid-galeria .grid-item {
     position: relative; }
     main .grid-galeria .grid-item img {
@@ -359,7 +359,7 @@ main .grid-galeria {
       bottom: 0;
       color: #ffffff;
       width: 100%;
-      background-color: #000000; }
+      background-color: #c50202; }
   main .grid-galeria .grid-item {
     position: relative; }
     main .grid-galeria .grid-item img {
@@ -374,7 +374,7 @@ main .grid-galeria {
       bottom: 0;
       color: #ffffff;
       width: 100%;
-      background-color: #000000; }
+      background-color: #c50202; }
   main .grid-galeria .grid-item {
     position: relative; }
     main .grid-galeria .grid-item img {
@@ -389,7 +389,7 @@ main .grid-galeria {
       bottom: 0;
       color: #ffffff;
       width: 100%;
-      background-color: #000000; }
+      background-color: #c50202; }
   main .grid-galeria .img-4 {
     grid-column: span 2; }
   main .grid-galeria .grid-item {
@@ -406,7 +406,7 @@ main .grid-galeria {
       bottom: 0;
       color: #ffffff;
       width: 100%;
-      background-color: #000000; }
+      background-color: #c50202; }
   main .grid-galeria .grid-item {
     position: relative; }
     main .grid-galeria .grid-item img {
@@ -421,7 +421,7 @@ main .grid-galeria {
       bottom: 0;
       color: #ffffff;
       width: 100%;
-      background-color: #000000; }
+      background-color: #c50202; }
   main .grid-galeria .img-6 {
     grid-row: span 2; }
   main .grid-galeria .grid-item {
@@ -438,7 +438,7 @@ main .grid-galeria {
       bottom: 0;
       color: #ffffff;
       width: 100%;
-      background-color: #000000; }
+      background-color: #c50202; }
   main .grid-galeria .grid-item {
     position: relative; }
     main .grid-galeria .grid-item img {
@@ -453,7 +453,7 @@ main .grid-galeria {
       bottom: 0;
       color: #ffffff;
       width: 100%;
-      background-color: #000000; }
+      background-color: #c50202; }
   main .grid-galeria .img-8 {
     grid-row: span 2; }
   main .grid-galeria .grid-item {
@@ -470,11 +470,11 @@ main .grid-galeria {
       bottom: 0;
       color: #ffffff;
       width: 100%;
-      background-color: #000000; }
+      background-color: #c50202; }
 
 main .video h2 {
   color: #ffffff;
-  background-color: #000000 !important;
+  background-color: #c50202 !important;
   text-align: center;
   font-size: 50px;
   padding: 20px; }
@@ -494,7 +494,7 @@ main .video .video-responsive {
 
 main .tipos-pizza h2 {
   color: #ffffff;
-  background-color: #000000;
+  background-color: #c50202;
   margin-top: 30px;
   text-align: center;
   font-size: 40px;
@@ -694,7 +694,7 @@ main .acordeon h2 {
   margin-top: 10px; }
 
 footer {
-  background-color: #000000;
+  background-color: #c50202;
   color: #ffffff;
   font-size: 40px;
   display: flex;
