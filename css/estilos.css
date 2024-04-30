@@ -745,7 +745,7 @@ footer {
     margin: 50px; }
   main .bienvenidos img {
     display: none; }
-  main .bienvenidos div h1 {
+  main .bienvenidos div h2 {
     font-size: 35px; }
   main .bienvenidos div p {
     font-size: 20px; } }
@@ -770,7 +770,7 @@ footer {
     display: none; } }
 
 @media screen and (max-width: 714px) {
-  main .hero h2 {
+  main .hero h1 {
     font-size: 50px;
     padding: 5px; }
   main .hero p {
@@ -779,7 +779,7 @@ footer {
     font-size: 16px; } }
 
 @media screen and (max-width: 453px) {
-  main .hero h2 {
+  main .hero h1 {
     font-size: 35px;
     padding: 5px; }
   main .hero p {
