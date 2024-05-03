@@ -140,7 +140,8 @@ main .productos .productos-contenedor {
     margin: 20px;
     box-shadow: -1px 10px 43px -7px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: -1px 10px 43px -7px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -1px 10px 43px -7px rgba(0, 0, 0, 0.75); }
+    -moz-box-shadow: -1px 10px 43px -7px rgba(0, 0, 0, 0.75);
+    transition: 1s; }
     main .productos .productos-contenedor div img {
       width: 300px;
       height: 250px; }
@@ -153,6 +154,8 @@ main .productos .productos-contenedor {
       background-color: #000000;
       padding: 10px;
       text-decoration: none; }
+    main .productos .productos-contenedor div:hover {
+      transform: scale(1.1); }
 
 main .iconos-contacto h3 {
   background-color: #000000;
@@ -514,7 +517,8 @@ main .tipos-pizza .productos-container {
     margin: 20px;
     box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75); }
+    -moz-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+    transition: 1s; }
     main .tipos-pizza .productos-container div img {
       width: 300px;
       height: 200px; }
@@ -523,6 +527,8 @@ main .tipos-pizza .productos-container {
     main .tipos-pizza .productos-container div a {
       padding: 10px;
       text-align: center; }
+    main .tipos-pizza .productos-container div:hover {
+      transform: scale(1.1); }
   main .tipos-pizza .productos-container div {
     border: 2px #808080 solid;
     width: 304px;

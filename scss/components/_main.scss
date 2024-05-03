@@ -76,6 +76,7 @@ main {
                 box-shadow: -1px 10px 43px -7px rgba(0, 0, 0, 0.75);
                 -webkit-box-shadow: -1px 10px 43px -7px rgba(0, 0, 0, 0.75);
                 -moz-box-shadow: -1px 10px 43px -7px rgba(0, 0, 0, 0.75);
+                
 
                 img {
                     width: 300px;
@@ -136,6 +137,7 @@ main {
                 box-shadow: -1px 10px 43px -7px rgba(0, 0, 0, 0.75);
                 -webkit-box-shadow: -1px 10px 43px -7px rgba(0, 0, 0, 0.75);
                 -moz-box-shadow: -1px 10px 43px -7px rgba(0, 0, 0, 0.75);
+                transition: 1s;
 
                 img {
                     width: 300px;
@@ -154,8 +156,11 @@ main {
                     padding: 10px;
                     text-decoration: none;
                 }
+                &:hover {
+                    transform: scale(1.1);
+                    }
             }
-        }
+        } 
     }
 
     .iconos-contacto {
@@ -660,6 +665,7 @@ main {
                 box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
                 -webkit-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
                 -moz-box-shadow: -1px 10px 43px -14px rgba(0, 0, 0, 0.75);
+                transition: 1s;
 
                 img {
                     width: 300px;
@@ -674,6 +680,9 @@ main {
                     padding: 10px;
                     text-align: center;
                 }
+                &:hover {
+                    transform: scale(1.1);
+                  }
             }
 
             div {
