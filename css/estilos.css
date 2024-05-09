@@ -24,8 +24,9 @@ main .bienvenidos {
   color: #ffffff !important;
   text-decoration: none !important; }
 
-.fixed a img {
-  width: 80px;
+.fixed a i {
+  font-size: 80px;
+  color: #06ff06;
   position: fixed;
   bottom: 30px;
   right: 30px; }
