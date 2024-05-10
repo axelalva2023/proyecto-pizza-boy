@@ -352,6 +352,7 @@ main {
     .mapa-contacto {
         @include flex(flex, space-between, center, wrap, 0);
         background-color: $color-principal;
+        margin-top: 20px;
 
         div {
             h2 {

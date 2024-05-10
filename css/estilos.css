@@ -16,6 +16,9 @@ main .bienvenidos {
 .menu-color {
   background-color: #000000; }
 
+button {
+  background-color: #000000 !important; }
+
 .navbar-toggler {
   background-color: #ffffff; }
 
@@ -296,7 +299,8 @@ main .mapa-contacto {
   align-items: center;
   flex-wrap: wrap;
   flex-direction: 0;
-  background-color: #000000; }
+  background-color: #000000;
+  margin-top: 20px; }
   main .mapa-contacto div h2 {
     color: #ffffff;
     text-align: center; }
