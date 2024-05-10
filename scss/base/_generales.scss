@@ -12,7 +12,10 @@
 .menu-color {
     background-color: $color-principal;
 }
-
+.color-negro-boton{
+    background-color: $color-principal;
+    color: $color-secundario;
+}
 .navbar-toggler {
     background-color: $color-secundario;
 }

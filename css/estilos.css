@@ -16,6 +16,10 @@ main .bienvenidos {
 .menu-color {
   background-color: #000000; }
 
+.color-negro-boton {
+  background-color: #000000;
+  color: #ffffff; }
+
 .navbar-toggler {
   background-color: #ffffff; }
 
