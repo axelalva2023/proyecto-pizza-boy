@@ -76,7 +76,7 @@ main {
                 box-shadow: -1px 10px 43px -7px rgba(0, 0, 0, 0.75);
                 -webkit-box-shadow: -1px 10px 43px -7px rgba(0, 0, 0, 0.75);
                 -moz-box-shadow: -1px 10px 43px -7px rgba(0, 0, 0, 0.75);
-                
+
 
                 img {
                     width: 300px;
@@ -156,11 +156,12 @@ main {
                     padding: 10px;
                     text-decoration: none;
                 }
+
                 &:hover {
                     transform: scale(1.1);
-                    }
+                }
             }
-        } 
+        }
     }
 
     .iconos-contacto {
@@ -221,7 +222,12 @@ main {
         background-color: $color-principal;
         margin-top: 20px;
 
-        div {
+        .descripcion {
+            color: #ffffff;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+
             h2 {
                 color: $color-secundario;
                 text-align: center;
@@ -548,9 +554,10 @@ main {
                     padding: 10px;
                     text-align: center;
                 }
+
                 &:hover {
                     transform: scale(1.1);
-                  }
+                }
             }
 
             div {

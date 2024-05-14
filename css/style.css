@@ -453,6 +453,7 @@ form .botones-contacto{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     flex-wrap: wrap;
     background-color: #000000;
 }
@@ -463,6 +464,13 @@ form .botones-contacto{
 }
 .mapa-contacto div p{
     color: #ffffff;
+    text-align: center;
+    
+}
+.descripcion{
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     
 }

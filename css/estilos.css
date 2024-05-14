@@ -199,12 +199,17 @@ main .mapa-contacto {
   flex-direction: 0;
   background-color: #000000;
   margin-top: 20px; }
-  main .mapa-contacto div h2 {
+  main .mapa-contacto .descripcion {
     color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center; }
-  main .mapa-contacto div p {
-    color: #ffffff;
-    text-align: center; }
+    main .mapa-contacto .descripcion h2 {
+      color: #ffffff;
+      text-align: center; }
+    main .mapa-contacto .descripcion p {
+      color: #ffffff;
+      text-align: center; }
 
 main .nosotros {
   text-align: center;
