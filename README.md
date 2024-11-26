@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Axel</h1>
 <h3 align="center">A passionate frontend developer from Argentina</h3>
 
-- 🔭 I’m currently working on [Pizzaboy](https://axelalva2023.github.io/coder-53845/)
+- 🔭 I’m currently working on [Pizzaboy](https://axelalva2023.github.io/proyecto-pizza-boy/)
 
 
 <h3 align="left">Languages and Tools:</h3>
