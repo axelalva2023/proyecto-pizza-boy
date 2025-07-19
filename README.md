@@ -7,7 +7,7 @@ Este proyecto fue desarrollado por **Axel Alva** como parte del curso de **Desar
 
 ## 📌 Descripción
 
-**Pizza Boy** es un sitio web simulado para una pizzería, diseñado para mostrar la estructura de un sitio real, incluyendo varias secciones y páginas conectadas.  
+**Pizza Boy** es un sitio web simulado para una pizzería, diseñado para mostrar la estructura completa de un sitio institucional, incluyendo varias secciones y navegación entre páginas.
 
 El sitio incluye:
 
@@ -15,31 +15,36 @@ El sitio incluye:
 - Sección de menú con diferentes tipos de pizzas.
 - Página de contacto.
 - Página sobre nosotros.
-- Navegación responsiva entre secciones.
-- Estilos organizados y personalizados con **SASS**.
+- Navegación responsive entre secciones.
+- Estilos personalizados con **SASS**.
+- Componentes y utilidades de **Bootstrap** para el diseño responsive.
 
 ## 🎯 Objetivo
 
-Poner en práctica los conocimientos adquiridos en el curso de Desarrollo Web, incluyendo:
+Aplicar los conocimientos adquiridos en el curso de Desarrollo Web, trabajando con:
 
-- Creación de un sitio web multi-página con **HTML5**.
-- Aplicación de estilos reutilizables y organizados usando **SASS**.
-- Maquetación semántica y estructura responsive.
-- Navegación entre documentos HTML.
+- Creación de un sitio multi-página con **HTML5**.
+- Estilado con **SASS**, utilizando variables, mixins y nesting.
+- Integración de **Bootstrap** para diseño adaptable y componentes.
+- Navegación clara y maquetación semántica.
 
 ## 🛠️ Tecnologías utilizadas
 
 - **HTML5**
-- **SASS (CSS preprocesado)**
 - **CSS3**
-- **Diseño Responsive (mobile-first)**
+- **SASS (SCSS)**
+- **Bootstrap 5**
+- **Diseño responsive (mobile-first)**
 
 ## 📁 Estructura del proyecto
 
-El proyecto cuenta con múltiples archivos HTML (una página por sección del sitio) y un archivo principal de estilos generado desde SASS.
+El proyecto está compuesto por múltiples archivos `.html` conectados entre sí, organizados con:
+
+- Estilos propios en SASS.
+- Archivos compilados en CSS.
+- Estructura modular gracias a Bootstrap.
 
 ## 👨‍💻 Autor
 
 **Axel Alva**  
 Desarrollado para el curso **Desarrollo Web** de **Coderhouse**.
-
